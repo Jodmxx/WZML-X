@@ -589,7 +589,7 @@ class MirrorLeechListener:
                 return
         
         if self.botpmmsg and (not config_dict['DELETE_LINKS'] or config_dict['CLEAN_LOG_MSG']):
-            await deleteMessage(self.botpmmsg)
+           
         
         await clean_download(self.dir)
         async with download_dict_lock:
