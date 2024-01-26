@@ -132,7 +132,7 @@ class WZMLStyle:
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started now :</u></b>\n┃\n┖ <b>Link:</b> {msg_link}"
+    PM_START =            "➲ <b><u>Task Started:</u></b>\n┃\n┖ <b>Link:</b> {msg_link}"
     L_LOG_START =           """➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :
     ------------------------------------------
 {msg_link}
